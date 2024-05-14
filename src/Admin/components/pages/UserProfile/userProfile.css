@@ -1,0 +1,98 @@
+.user-profile-container{
+    display: flex;
+}
+.user-profile-main{
+    display: flex;
+    background-color: #8C8C8C;
+    width:80vw;
+    height:100vh;
+}
+
+.user-profile-content{
+    margin: 2rem 4rem 2rem 2rem;
+    background-color: white;
+    width: 100%;
+    padding: 2rem;
+}
+
+.user-profile-content-heading{
+    display: flex;
+    gap:1rem;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+
+.user-profile-content-heading h1{
+    font-size: 20px;
+   
+}
+
+.user-profile-content-details{
+    border:1px solid#F3F3F3;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 35%;
+    background-color: #F3F3F3;
+}
+
+.user-profile-content-details-profile{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-profile-content-details-main{
+    display: flex;
+    gap:2rem;
+    align-items: flex-start;
+}
+
+.user-profile-purchase-details{
+   border: 1px solid #F3F3F3;
+   background-color: #F3F3F3;
+   border-radius: 10px;
+   padding: 2rem;
+}
+
+.user-profile-toggle{
+    display: flex;
+    gap:1rem;
+    width:40vw;
+}
+
+.user-profile-toggle button{
+    border: 2px solid #C5C5C5;
+    padding: 0.5rem 2rem;
+    border-radius: 6px;
+}
+
+.user-profile-toggle button.active{
+    border: 2px solid #FFA552;
+}
+
+.user-profile-purchase-table{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    gap:0.5rem;
+    margin-top: 2rem;
+    
+}
+
+.user-profile-purchase-table-content{
+    display: flex;
+    gap:0.5rem;
+    
+}
+
+.user-profile-purchase-table-content h1{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.user-profile-purchase-table-content p{
+    font-size: 12px;
+    
+}

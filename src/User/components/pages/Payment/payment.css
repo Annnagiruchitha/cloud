@@ -1,0 +1,399 @@
+.payment-main{
+    padding: 3rem 0;
+    
+}
+
+.payment-section1{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+    
+}
+
+.payment-section1 hr{
+    width:20%
+    
+}
+
+.payment-section1-div1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.indicator-number {
+    font-size: 1.5rem;
+    border: 1px solid #FF6169;
+    border-radius: 50%;
+    width: max(40px, 5vw); /* Ensures a minimum width of 40px */
+    height: max(40px, 10vh); /* Ensures a minimum height of 40px, adjust as needed */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centers the content (number) */
+   
+  }
+  
+.indicator-text{
+ 
+        text-align: center; /* Centers the text, given the column layout */
+       
+        white-space: nowrap;
+    
+}
+
+
+.payment-button{
+    color: white;
+    background: linear-gradient(90deg,
+    rgba(255, 95, 106, 1) 0%,
+    rgba(255, 167, 82, 1) 100%);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.active-indicator{
+    background: linear-gradient(90deg,
+    rgba(255, 95, 106, 1) 0%,
+    rgba(255, 167, 82, 1) 100%);
+}
+
+.payment-section2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+    
+    
+}
+
+.payment-section2-div2{
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 35rem;
+}
+
+.billing-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:4rem;
+    
+}
+
+.billing-form-group{
+    display: flex;
+    flex-direction:column;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.bill-input{
+    border-radius: 5px;
+    border: 1px solid white;
+    background: black;
+    padding: 1rem;
+}
+
+.bill-input-select{
+    border-radius: 5px;
+    border: 1px solid white;
+    background: black;
+    padding: 1rem;
+    width: 13rem;
+}
+
+.billing-form-heading h1{
+    font-size: 24px;
+    font-weight:bold;
+    padding: 1rem;
+
+}
+
+.bill-form-label{
+    font-size:24px;
+}
+
+.billing-button{
+    color: white;
+    background: linear-gradient(90deg,
+    rgba(255, 95, 106, 1) 0%,
+    rgba(255, 167, 82, 1) 100%);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width:20%;
+    font-size: 16px;
+    font-weight: lighter;
+    
+    
+}
+.billing-form-button{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.billing-popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.148);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+    z-index: 9999;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    min-width: 300px;
+    min-height: 100px;
+}
+
+
+.billing-popup-content{
+    
+    padding: 0.1rem 7rem;
+    backdrop-filter: none; /* Reset the backdrop filter on the content */
+    -webkit-backdrop-filter: none;
+   
+}
+
+.bill-popup-form-label{
+    color: white;
+}
+
+
+.billing-popup-form-group{
+    display: flex;
+    flex-direction:column;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    width: 20rem;
+}
+
+.billing-close-button {
+    right: 3rem;
+    top:1rem;
+    position: absolute;
+    color: white;
+    font-size: 2rem; 
+    font-weight: lighter;
+  
+}
+
+
+.blur-background {
+    filter: blur(8px);
+    pointer-events: none;
+  }
+
+  .billing-popup-button{
+    color: white;
+    background: linear-gradient(90deg,
+    rgba(255, 95, 106, 1) 0%,
+    rgba(255, 167, 82, 1) 100%);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 16px;
+    font-weight: lighter;
+    width: 30%;
+    
+  }
+
+  
+  .billing-popup-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .account-details-main{
+    margin: 1rem 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap:2rem;
+    flex-wrap: wrap;
+
+    
+  }
+ .account-details-section1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width:40rem
+    
+    
+ }
+  .account-details-section1-div1{
+    border: 1px solid white;
+    border-radius: 8px ;
+    
+  }
+
+  .account-details-section1-div1 h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding: 1rem;
+  }
+  .account-details-img{
+    display:flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .account-details-img h2{
+    font-size: 22px;
+    font-weight:bold;
+    color: white;
+  }
+
+  .account-details-section1-div2{
+    border: 1px solid white;
+    border-radius: 8px ;
+    
+  }
+
+  .account-shopping-cart{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 1rem;
+    align-items: center;
+  }
+
+  .account-shopping-cart h1,
+  .account-details-cart h1{
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .account-shopping-cart p,
+  .account-details-cart p{
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(90deg,
+    rgba(255, 95, 106, 1) 0%,
+    rgba(255, 167, 82, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .account-shopping-details{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 1rem;
+    align-items: center;
+  }
+
+  .account-shopping-img {
+    display: flex;
+    gap:1rem;
+    align-items: center;
+
+  }
+  .account-shopping-img img{
+    height: 66.01px;
+    width: 75px;
+  }
+
+  .account-shopping-img h1{
+    font-size: 22px;
+  }
+
+  .account-shopping-value{
+    display: flex;
+    gap:0.2rem;
+    align-items: center;
+  }
+
+  .account-details-section1-div3{
+    border: 1px solid white;
+    border-radius: 8px ;
+  }
+
+  .account-details-cart{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 1rem;
+    align-items: center;
+  }
+
+.account-details-address{
+    padding: 1rem;
+}
+
+.account-details-address p{
+    font-size: 24px;
+    color: white;
+   
+}
+
+.account-details-subtotal,
+.account-details-taxes,
+.account-details-total{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  font-size: 22px;
+}
+
+.account-details-section2-main{
+    padding: 1rem;
+}
+
+.account-details-section2{
+  border: 1px solid white;
+  border-radius: 8px ;
+  width:26rem;
+}
+
+.account-details-section2-heading h1{
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 1rem;
+  
+}
+
+.account-details-paynow{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.account-details-button{
+  color: white;
+  background: linear-gradient(90deg,
+  rgba(255, 95, 106, 1) 0%,
+  rgba(255, 167, 82, 1) 100%);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 16px;
+  font-weight: lighter;
+  width: 30%;
+  text-align: center;
+  
+}
+
+.account-details-card{
+  display:flex;
+  gap:2rem;
+  padding: 2rem 0;
+}
+
+
+
+
+
+
+  

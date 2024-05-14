@@ -1,0 +1,143 @@
+.add-asset-container{
+    display: flex;
+}
+
+.add-asset-main{
+    display: flex;
+    background-color: #8C8C8C;
+    width:80vw;
+    height:100vh;
+}
+
+.add-asset-content{
+    margin: 2rem 1rem 2rem 2rem;
+    background-color: white;
+    width: 100%;
+    padding: 2rem;
+    overflow-y: scroll;
+}
+
+.add-asset-heading{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+
+.add-asset-details-main{
+    /* display: flex; */
+    border: 1px solid #F3F3F3;
+    background-color: #F3F3F3;
+    border-radius: 12px;
+    padding: 1rem;
+    /* gap:2rem; */
+    
+    
+}
+
+.add-asset-details-main-container{
+    display: flex;
+    gap: 1rem;
+    /* overflow-x: scroll; */
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.add-asset-form-field{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;  
+    padding-bottom: 1rem;
+    align-items: center;
+}
+
+
+.add-asset-form-label{
+    font-size: 16px;
+    font-weight:600 ;
+    
+}
+
+.add-asset-form-input{
+    width: 16vw;
+    height: 5vh;
+    border-radius: 6px;
+}
+
+.add-asset-form-input-des{
+    width: 16vw;
+    height: 20vh;
+    border-radius: 6px;
+}
+
+.add-asset-uploadmodel form{
+    display: flex; 
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.add-asset-uploadmodel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid white;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    overflow-x: scroll;
+
+}
+
+.add-asset-uploadmodel h1{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+
+.add-asset-uploadmodel-form-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+
+.add-asset-uploadmodel-form-label{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 1rem;
+
+}
+.add-asset-uploadmodel-form-input{
+    width: 10vw;
+    height: 6vh;
+    border-radius: 6px;
+    background-color:#F3F3F3;
+}
+
+
+.add-asset-button{
+    gap:1rem;
+    display: flex;
+}
+
+.add-asset-upload-button{
+    border:2px solid #FFA253;
+    padding: 0.5rem 3rem;
+    border-radius: 4px;
+    
+}
+
+
+.add-asset-cancel-button{
+    border:2px solid #C5C5C5;
+    padding: 0.5rem 3rem;
+    border-radius: 4px;
+    
+}
+
+.file-upload-button{
+    border: 0px;
+
+}

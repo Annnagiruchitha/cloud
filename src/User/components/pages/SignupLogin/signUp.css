@@ -1,0 +1,248 @@
+.signup-main {
+    display: flex;
+    flex-wrap: wrap;
+   
+    width: 100vw;
+    
+   
+   
+   
+  }
+   
+  .left-signup {
+    
+    max-width: 50%; 
+    margin: auto;
+    background-color: #000000;
+  }
+
+  .signup-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+   
+
+
+  .right-signup img{
+ height:100vh;
+ 
+
+  }
+   
+   
+  .signup-heading {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 0.3rem 0;
+   
+  }
+   
+  .signup-heading h1 {
+   
+    color: white;
+    font-size: 2.25rem;
+  }
+   
+  .signup-heading p {
+    font-size: 15px;
+    background: linear-gradient(90deg,
+    rgba(255, 95, 106, 1) 0%,
+    rgba(255, 167, 82, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+   
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.5rem;
+  }
+   
+  .form-label {
+    align-self: flex-start;
+    color: white;
+    margin-bottom: 5px;
+  }
+   
+  .form-input {
+    padding: 0.5rem ;
+    border-width: 1px;
+    border-style: solid;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+  }
+   
+  .terms-privacy {
+    display: flex;
+    flex-direction: row;
+  }
+   
+  .form-checkbox {
+    margin-right: 5px;
+  }
+   
+  .submit-button {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: white;
+    border-color: none;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-top: 0.625rem;
+    border-radius: 50px;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 95, 106, 1) 0%,
+      rgba(255, 167, 82, 1) 100%
+    );
+  }
+   
+  .rounded-button {
+    display: flex;
+    width: 1%;
+    height: 1%;
+    text-decoration: none;
+    box-sizing: border-box;
+    justify-content: center;
+    font-size: 0.875rem;
+    font-weight: 500;
+    align-items: center;
+    transition-timing-function: linear;
+    transition-duration: 0.2s;
+    padding-left: 1.25rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 50%;
+  }
+   
+  .rounded-button:hover {
+    opacity: 0.8;
+  }
+   
+  .google-login-button {
+    color: #333;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 1px #d6d6d6;
+  }
+   
+  .google-login-button {
+    height: 1.25rem;
+    display: flex;
+    margin-right: 0.625rem;
+  }
+   
+  .google-icon svg {
+    height: 1.25rem;
+    display: flex;
+    margin-right: 0.3rem;
+  }
+   
+   
+   
+  .guest-login {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 95, 106, 1) 0%,
+      rgba(255, 167, 82, 1) 100%
+    );
+    display: inline-block;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+   
+   
+  .form-final-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+   
+  }
+
+  .google-signup{
+    font-size: 2rem;
+  }
+   
+  .form-final-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    gap: 0.3rem;
+  }
+   
+  .form-final-div h3{
+    text-decoration: underline;
+   
+  }
+
+  .email-input-container {
+    display: flex;
+  }
+  
+  .get-otp-button {
+    bottom: 2rem;
+    left: 7.5rem;
+    position: relative;
+    color: white;
+    width: 5vw;
+    border:1px solid #838383;
+    background-color: #838383;
+    font-size: 12px;
+  
+  }
+
+  .form-field-otp{
+    display:flex;
+    gap:1rem;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .left-signup {
+      flex: 1 1 50%; 
+      max-width: 50%; /* Remove maximum width */
+    }
+
+    .right-signup img{
+    display: none;
+    }
+
+    .form-field-otp{
+      flex-direction: column;
+      gap:0;
+    }
+
+    .get-otp-button{
+      width: 10vw;
+      left:15rem;
+    }
+  }
+
+
+  @media screen and (max-width: 576px) {
+    .left-signup {
+      flex: 1 1 80%; 
+      max-width: 80%;
+    }
+    .form-field-otp{
+      flex-direction: column;
+      gap:0;
+    }
+
+    .get-otp-button{
+      width: 15vw;
+      left:13rem;
+    }
+  
+  }

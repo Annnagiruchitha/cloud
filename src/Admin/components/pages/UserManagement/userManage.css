@@ -1,0 +1,82 @@
+.user-manage-container{
+    display: flex;
+}
+.user-manage-main{
+    display: flex;
+    background-color: #8C8C8C;
+    width:79.9vw;
+    height:100vh;
+}
+
+.user-manage-content{
+    margin: 2rem 1rem 2rem 2rem;
+    background-color: white;
+    width: 100%;
+    padding: 2rem;
+    overflow-y: scroll;
+}
+
+.user-manage-content h2{
+    font-size: 20px;
+    padding-bottom: 1rem;
+}
+
+.user-manage-content-toggle{
+    display: flex;
+    gap:2rem;
+    padding: 2rem 0;
+}
+
+.user-manage-content-toggle button{
+    border: 2px solid #C5C5C5;
+    padding: 0.5rem 4rem;
+    border-radius: 6px;
+}
+
+.user-manage-content-toggle button.active{
+    border: 2px solid #FFA552; 
+}
+
+
+.user-manage-content-users,
+.user-manage-content-guest{
+    border: 1px solid #F3F3F3;
+    background-color:#F3F3F3;
+    border-radius: 10px;
+   
+}
+
+.user-manage-content-users-heading{
+    padding:1rem 2rem 0.5rem 2rem;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.user-manage-content-users-details{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content:space-between;
+    border: 1px solid white;
+    background-color: white;
+    margin: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.user-manage-content-guest-heading{
+    padding: 1rem 4rem 0.5rem 4rem;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.user-manage-content-guest-details{
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content:space-between;
+    border: 1px solid white;
+    background-color: white;
+    margin: 0.5rem 1rem;
+    border-radius: 5px;
+}
+

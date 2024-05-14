@@ -1,0 +1,11 @@
+.contact-head{
+    width:100%
+}
+
+.contact-email{
+    background: linear-gradient(90deg,
+    rgba(255, 95, 106, 1) 0%,
+    rgba(255, 167, 82, 1) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}

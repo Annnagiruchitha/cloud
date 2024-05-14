@@ -1,0 +1,161 @@
+.login-main {
+  display: flex;
+  align-items: center;
+
+}
+
+/* .right-login {
+  height: 100vh;
+  flex-grow: 1;
+  position: relative;
+} */
+
+.left-login{
+  margin: auto;
+  max-width: 50%; 
+}
+
+ .login-fill-image {
+  height: 100vh; 
+
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+
+.login-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+ 
+.login-heading h1 {
+  color: white;
+  font-size: 2.25rem;
+}
+
+.login-form-field {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.5rem;
+}
+
+.login-form-label {
+  align-self: flex-start;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.login-form-input {
+  padding: 0.625rem;
+  border-width: 1px;
+  border-style: solid;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  border-radius: 10px;
+}
+
+.loginform-final-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-submit-button {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: white;
+  border-color: none;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  margin-top: 0.625rem;
+  border-radius: 50px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 95, 106, 1) 0%,
+    rgba(255, 167, 82, 1) 100%
+  );
+}
+
+.login-submit-button:hover {
+  opacity: 0.8;
+}
+
+.login-rounded-button {
+  display: flex;
+  width: 1%;
+  height: 1%;
+  text-decoration: none;
+  box-sizing: border-box;
+  justify-content: center;
+  font-size: 0.875rem;
+  font-weight: 500;
+  align-items: center;
+  transition-timing-function: linear;
+  transition-duration: 0.2s;
+  padding-left: 1.25rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 50%;
+}
+
+.login-rounded-button:hover {
+  opacity: 0.8;
+}
+
+.google-login1-button {
+  color: #333;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: solid 1px #d6d6d6;
+}
+
+.google-login1-button {
+  height: 1.25rem;
+  display: flex;
+  margin-right: 0.625rem;
+}
+
+.login-google-icon svg {
+  height: 1.25rem;
+  display: flex;
+  margin-right: 0.3rem;
+}
+
+.login-form-final-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  gap: 0.3rem;
+}
+
+.login-form-final-div h3 {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .left-login {
+    flex: 1 1 50%; 
+    max-width: 50%; /* Remove maximum width */
+  }
+
+  .login-fill-image {
+    display:none;
+  
+  }
+}

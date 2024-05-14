@@ -1,0 +1,205 @@
+.container-search {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center;     */
+    margin: 3rem 0;
+}
+ 
+
+.container-search-main{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+ 
+.container-search .card-search {
+   
+    position: relative;
+    width: 273px;
+    height: 335px;
+    background: rgb(93 87 87 / 58%);
+    border-radius: 20px;
+    border-bottom-right-radius: 58px;
+    overflow: hidden;
+    border: 2px solid #ffffff6e;
+}
+ 
+ 
+.container-search .card-search .box-search {
+    position: relative;
+    inset: 1px 1px;
+    background: #76767600;
+    border-radius: 20px;  
+}
+ 
+.image-search img{
+    border-radius: 20px;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+ 
+.container-search .card-search .box-search .icon-search {
+    transition: 0.5s;
+    position: absolute;
+    width: 100.3px;
+    height: 100.3px;
+    background: rgb(0, 0, 0);
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 63%;
+    right: 0%;
+   
+}
+ 
+.container-search .card-search .box-search .icon-search::before {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-top-left-radius: 30px;
+    box-shadow: -5px -5px 0 5px var(--clr);
+   
+}
+ 
+.container-search .card-search .box-search .icon-search::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-top-left-radius: 30px;
+    box-shadow: -5px -5px 0 5px var(--clr);
+   
+}
+ 
+.container-search .card-search .box-search .icon-search .iconbox-search {
+    position: absolute;
+    inset: 20px;
+    background: rgb(93 87 87 / 58%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+ 
+.container-search .card-search .box-search .content-search {
+    position: absolute;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    gap: 1rem;
+    display: grid; 
+}
+ 
+.title-search01{
+    display: flex;
+    gap: 4rem;
+    color: aliceblue;    
+}
+ 
+.title-search02{
+    display: flex;
+    /* bottom: 1rem; */
+    position: relative;
+    align-items: center;
+    color: aliceblue;
+}
+ 
+.title-search02 img{
+    padding-right: 5px;
+}
+ 
+.title-search02 p{
+    padding-right: 1rem;
+}
+ 
+.search-main{
+    display: flex;
+    align-items: center;
+    margin-left: 3.5rem;
+    
+    position: relative;
+    gap:4rem;
+    padding-bottom: 1.5rem;
+}
+ 
+.container-search-button{
+    display: flex;
+    color: white;
+    border: 1px solid #FF5F6A;
+    padding: .5rem;
+    border-radius: 8px;
+    height: 48px;
+    align-items: center;
+    width: 100px;
+    justify-content: center;
+}
+ 
+ 
+.container-search-button p{
+    background: linear-gradient(
+        90deg,
+        rgba(255, 95, 106, 1) 0%,
+        rgba(255, 167, 82, 1) 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+ 
+ 
+.search-search{
+    position: relative;
+}
+ 
+ 
+.search-search-icon{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #888;
+    pointer-events: none;  
+}
+ 
+.search-search-border{
+   
+    padding: 0.5rem;
+    border: 1px solid #FFA752;
+    border-radius: 8px;
+    width: 343px;
+    height: 48px;
+    font-size: 16px;
+    background-color: #0e0e0e00;
+    padding-left: 40px;
+    /* border-image: linear-gradient(to right, #FF5F6A, #FFA752); */
+ 
+}
+ 
+ 
+ 
+ .search-search-border:focus {
+    color: #FF6069;
+  }
+ 
+  .search-search-border::placeholder {
+    background: linear-gradient(
+        90deg,
+        rgba(255, 95, 106, 1) 0%,
+        rgba(255, 167, 82, 1) 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+     
+  }
+ 
+@media only screen and (max-width: 1080px) {
+    .container-search {
+        padding: 2rem 1rem;
+    }
+}

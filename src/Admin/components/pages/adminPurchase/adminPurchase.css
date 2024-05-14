@@ -1,0 +1,75 @@
+.admin-purchase-container{
+    display: flex;
+}
+
+.admin-purchase-main{
+    display: flex;
+    background-color: #8C8C8C;
+    width:79.9vw;
+    height:100vh;
+    
+}
+
+.admin-purchase-content{
+    margin: 2rem 1rem 2rem 2rem;
+    background-color: white;
+    width: 100%;
+    padding: 2rem;
+    overflow-y: scroll;
+}
+
+.admin-purchase-content-heading{
+    padding-bottom: 1rem;
+    font-size: 20px;
+}
+
+.admin-purchase-content-details{
+   
+   display: flex;
+   flex-direction: column;
+   gap:0.5rem;
+    justify-content: space-between;
+  
+}
+
+.admin-purchase-content-details-table{
+    display: flex;
+    border: 1px solid #F3F3F3;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    padding: 1rem;
+    justify-content: space-between;
+   
+}
+
+.admin-purchase-content-details-table-content{
+    display: flex;
+    
+}
+
+.admin-purchase-popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.148);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+    z-index: 9999;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    min-width: 300px;
+    min-height: 100px;
+}
+
+.admin-purchase-popup-close{
+    right: 1rem;
+    top:0rem;
+    position: absolute;
+    color: black;
+    font-size: 2rem; 
+    font-weight: lighter;
+    cursor: pointer;
+}

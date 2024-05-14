@@ -1,0 +1,61 @@
+.asset-management-container{
+  display: flex;
+}
+.asset-management-main{
+    display: flex;
+    background-color: #8C8C8C;
+    width:80vw;
+    height:100vh;
+}
+
+.asset-management-heading{
+    margin: 2rem 1rem 2rem 2rem;
+    background-color: white;
+    width: 100%;
+    padding: 2rem 2rem 2rem 2rem;
+    overflow-y: scroll;
+}
+
+.asset-management-heading h1{
+  font-size: 20px;
+  padding-bottom: 1rem;
+}
+
+
+
+
+.asset-image-container {
+    position: relative;
+    display: inline-block; /* Ensures the container only takes as much space as needed */
+  }
+  
+  .asset-image-container img {
+    display: block; 
+    width:239px;
+    height: 100px;
+    border-radius: 12px;
+    filter: brightness(60%);
+  }
+  
+  .asset-image-container p {
+    position: absolute;
+    top: 50%; /* Position the text 50% from the top */
+    left: 50%; /* Position the text 50% from the left */
+    transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
+    margin: 0; /* Remove any default margin */
+    color: #fff; /* Example: set text color to white */
+   
+  }
+
+  .asset-management-content-assets{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+  }
+
+  .asset-management-content-assets a{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+    
